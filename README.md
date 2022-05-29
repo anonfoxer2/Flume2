@@ -1,20 +1,18 @@
-# FlumeBot
-My first properly done public discord bot
-Also an excuse for me to learn how to use git right.
+# Flume2
+Originally at [FlumeBot](https://github.com/anonfoxer/FlumeBot), this is the backbone behind the Discord bot Flume. The codebase is here to act as a base for those new to creating bots, or who those who want to make a small scale bots.
+
+[Website](https://sites.google.com/view/flumebot/)
+
+[Invite Link](https://discordapp.com/oauth2/authorize?client_id=662760640242384904&scope=bot&permissions=2146958591)
 
 # Node Setup
 - npm init
 - npm install discord.js --save
 - npm install discord.js-commando --save
 
-# Other Setup
-- Make sure in the folder "devinfo" there is a file named log.txt
-
 # To Do List
-- Anti Spam Mode ("Raidmode")
-- Kick/Ban
-- Voice Channel Control
-- Get running on a fucking RPi3B+
+- Update the install instructions
+- Expand upon the `moderation` section of commands and make these commands more robust.
 
 # Add Bot to a server
 [Invite Link](https://discordapp.com/oauth2/authorize?client_id=662760640242384904&scope=bot&permissions=2146958591)
