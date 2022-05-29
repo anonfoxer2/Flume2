@@ -5,10 +5,19 @@ Originally at [FlumeBot](https://github.com/anonfoxer/FlumeBot), this is the bac
 
 [Invite Link](https://discordapp.com/oauth2/authorize?client_id=662760640242384904&scope=bot&permissions=2146958591)
 
-# Node Setup
-- npm init
-- npm install discord.js --save
-- npm install discord.js-commando --save
+# Bot setup
+1. Download [NodeJS](https://nodejs.org/en/)
+2. Download the bot master
+3. Manually enter your bot's token and your User ID in the fields `TOKEN` and `OWNERID` respectively, or grab them from a configuration file.
+4. Enter the following node commands to set up the bot:
+
+        npm init
+        npm install discord.js --save
+        npm i --save https://github.com/discordjs/Commando.git
+        
+5. Run the bot by typing
+
+        node flume.js
 
 # To Do List
 - Update the install instructions
