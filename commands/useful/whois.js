@@ -24,8 +24,8 @@ class whois extends commando.Command {
         const whoIsEmbed = new Discord.MessageEmbed()
             .setColor('#8336d6')
             .setTitle('Who is')
-            .setURL('https://github.com/anonfoxer/FlumeBot')
-            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+            .setURL('https://github.com/anonfoxer2/Flume2')
+            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
             .setDescription('Results of a whois search on ' + scrubby.displayName)
             .addFields(
                 { name:'Account Created',value: create},

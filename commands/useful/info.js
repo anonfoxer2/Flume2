@@ -16,8 +16,8 @@ class inform extends commando.Command {
         const infoEmbed = new Discord.MessageEmbed()
         .setColor('#8336d6')
         .setTitle('Bot info')
-        .setURL('https://github.com/anonfoxer/FlumeBot')
-        .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+        .setURL('https://github.com/anonfoxer2/Flume2')
+        .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
         .setDescription('Bot information')
             .addFields(
                 { name: 'What is Flume?', value: 'Flume is a small Discord bot aimed at small servers with fun and moderation in mind.' },

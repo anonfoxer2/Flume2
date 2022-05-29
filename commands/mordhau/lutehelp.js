@@ -16,8 +16,8 @@ class luteHelp extends commando.Command {
             const helpembed = new Discord.MessageEmbed()
                 .setColor('#8336d6')
                 .setTitle('LuteMod & LuteBot FAQ')
-	            .setURL('https://github.com/anonfoxer/FlumeBot')
-                .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+	            .setURL('https://github.com/anonfoxer2/Flume2')
+                .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
 	            .setDescription('Hopefully this willanswer your question!')
                 .addFields(
                     { name: 'It spams the chat!', value: 'Make sure your open console key is set to Page Down in both LuteBot and in game.'},

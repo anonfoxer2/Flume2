@@ -24,8 +24,8 @@ class stratLette extends commando.Command {
             const stratEmbed = new Discord.MessageEmbed()
                 .setColor('#8336d6')
                 .setTitle('Strat roulette results')
-	            .setURL('https://github.com/anonfoxer/FlumeBot')
-                .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+	            .setURL('https://github.com/anonfoxer2/Flume2')
+                .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
 	            .setDescription('Best of luck, nerds!')
                 .addFields(
                     { name: 'Strat', value: myStrat},

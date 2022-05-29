@@ -16,11 +16,11 @@ class changeLog extends commando.Command {
         const changelogEmbed = new Discord.MessageEmbed()
             .setColor('#8336d6')
             .setTitle('Changelog')
-            .setURL('https://github.com/anonfoxer/FlumeBot')
-            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+            .setURL('https://github.com/anonfoxer2/Flume2')
+            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
             .setThumbnail('https://i.imgur.com/VH3jv7d.jpg')
             .addFields(
-                { name: 'Changes in v2.5.4', value: '- Fixed empty message throws in &cupid, &cringe, all commands uing an array for a response function\n- Added &lutehelp for use within The Bard\'s Guild <3\n- Added &channelwipe for clearing up mass channels made by server "nukes".\n- Renamed &cat to &echo.\n- Turned off the on edit messages.\n- Added more strats to &stratroulette.' },
+                { name: 'Changes in v2.5.5', value: '- Updated all refrences to the old GitHub repo to the new repo\n' },
             )
 
 

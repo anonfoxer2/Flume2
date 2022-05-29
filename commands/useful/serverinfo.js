@@ -27,8 +27,8 @@ class serverInfo extends commando.Command {
         const infoEmbed = new Discord.MessageEmbed()
             .setColor('#8336d6')
 	        .setTitle('Server Info')
-	        .setURL('https://github.com/anonfoxer/FlumeBot')
-            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer/FlumeBot')
+	        .setURL('https://github.com/anonfoxer2/Flume2')
+            .setAuthor('FlumeBot', 'https://i.imgur.com/agTGFwL.png', 'https://github.com/anonfoxer2/Flume2')
 	        .setDescription('Info of ' + name)
 	        .addFields(
 		        { name: 'Server Name', value: name },

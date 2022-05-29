@@ -12,20 +12,13 @@ const bot = new commando.Client({
     disableEveryone: true
 });
 
-/* Flume 2.5.4 - What's new?
-    - Fixed empty message throws in &cupid, &cringe, all commands uing an array for a response function
-    - Added &lutehelp for use within The Bard's Guild <3
-    - Added &channelwipe for clearing up mass channels made by server "nukes".
-    - Renamed &cat to &echo (though it is still refrenced as cat within the codebase).
-    - Turned off the on edit messages.
-    - Added more strats to &stratroulette.
+/* Flume 2.5.5 - What's new?
+    - Updated all refrences to the old GitHub repo to the new repo
 */
 
 bot.on('ready', ( ) => {
     bot.user.setActivity('&help | v2.5.4 | Utilitee');
-    //bot.user.setActivity('&help | v2.5.4 INDEV');
     console.log("FlumeBot Online! v2.5.4 | Utilitee");
-    //console.log("Currently in Dev mode.");
 })
 
 
